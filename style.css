@@ -1,3 +1,38 @@
-h1 {
-    color:red;
+body {
+    background-color:gray;
+}
+.header {
+    text-align:center;
+    font-size:75px;
+    color:white;
+    background-color:Lightblue;
+}
+a {
+   background-color:lightseagreen; 
+   font-size:40px;
+   color:white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:lightseagreen;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    padding: 8px;
+    background-color:lightseagreen;
+    font-size:30px;
+  } 
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width:85%;
 }
