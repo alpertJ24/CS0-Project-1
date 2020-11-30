@@ -3,36 +3,38 @@ body {
 }
 .header {
     text-align:center;
-    font-size:75px;
+    font-size:800%;
     color:white;
     background-color:Lightblue;
 }
-a {
+.topnav {
    background-color:lightseagreen; 
-   font-size:40px;
+   font-size:350%;
    color:white;
 }
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color:lightseagreen;
-  }
-  
-  li {
-    float:left;
-  }
-  
-  li a {
-    display: block;
-    padding: 8px;
-    background-color:lightseagreen;
-    font-size:30px;
-  } 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width:85%;
+.topnav a {
+    float: left;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
 }
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+.topnav {
+    display:table;
+    margin:auto;
+  }
+  .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+ } 
+ .menuhead {
+    text-align:center;
+    font-size:600%;
+    color:white;
+    background-color:Lightblue;
+ }
