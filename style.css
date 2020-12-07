@@ -3,13 +3,13 @@ body {
 }
 .header {
     text-align:center;
-    font-size:800%;
+    font-size:9vw;
     color:white;
     background-color:Lightblue;
 }
 .topnav {
    background-color:lightseagreen; 
-   font-size:350%;
+   font-size:4vw;
    color:white;
 }
 .topnav a {
@@ -19,7 +19,7 @@ body {
     padding: 14px 16px;
 }
 .topnav a:hover {
-    background-color: #ddd;
+    background-color:teal;
     color: black;
   }
 .topnav {
@@ -34,7 +34,36 @@ body {
  } 
  .menuhead {
     text-align:center;
-    font-size:600%;
+    font-size:8vw;
     color:white;
     background-color:Lightblue;
  }
+ #footer {
+     Background-color:lightblue;
+     
+ }
+ .hourspage {
+     font-size:5vw;
+     color:#00134d;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+  * {
+    box-sizing: border-box;
+  }
+.column {
+        float: left;
+        width: 33.33%;
+        padding: 5px;
+      }
+      
+      /* Clearfix (clear floats) */
+.row::after {
+        content: "";
+        clear: both;
+        display: table;
+      }
