@@ -3,9 +3,10 @@ body {
 }
 .header {
     text-align:center;
-    font-size:9vw;
+    font-size:8.7vw;
     color:white;
     background-color:Lightblue;
+    font-family:Georgia;
 }
 .topnav {
    background-color:lightseagreen; 
@@ -43,8 +44,11 @@ body {
      
  }
  .hourspage {
-     font-size:5vw;
+     font-size:6vw;
      color:#00134d;
+     text-align:center;
+     margin-left: auto;
+    margin-right: auto;
   }
   .center {
     display: block;
@@ -52,18 +56,28 @@ body {
     margin-right: auto;
     width: 50%;
   }
-  * {
-    box-sizing: border-box;
+.foodname {
+    text-align:center;
+    font-size:4.3vw;
+}
+.item {
+    font-size:3.5vw;
+    text-align:center;
+}
+#pic {
+    width:75%;
+}
+th {
+    text-align:center;
+}
+table, th, td {
+    border: 3px solid black;
+    border-collapse: collapse;
   }
-.column {
-        float: left;
-        width: 33.33%;
-        padding: 5px;
-      }
-      
-      /* Clearfix (clear floats) */
-.row::after {
-        content: "";
-        clear: both;
-        display: table;
-      }
+th, td {
+    padding: 15px;
+  }
+.description {
+    font-size:3vw;
+    text-align:center;
+}
